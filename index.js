@@ -20,9 +20,9 @@ function loadTimeFunction() {
 
 function intervalBarIncrease(selectedTextArea) {
 
-	objectiveTextArea = document.getElementById(selectedTextArea);
+	var objectiveTextArea = document.getElementById(selectedTextArea);
 
-	textAreaRect = objectiveTextArea.getBoundingClientRect();
+	var textAreaRect = objectiveTextArea.getBoundingClientRect();
 
 	textAreaInterval[selectedTextArea] = window.setInterval(function() { barIncrease(selectedTextArea, objectiveTextArea, textAreaRect) }, 5);
 }
