@@ -1,0 +1,28 @@
+div.container {
+
+	width: 700px;
+	margin: 30px auto;
+}
+
+div.inputArea {
+
+	width: 600px;
+	margin: 30px auto;
+}
+
+div.urlBar {
+
+	float: left;
+	width: 250px;
+}
+
+div.urlBar label h1 , div.searchBar label h1 {
+
+	text-align: center;
+}
+
+div.searchBar {
+
+	float: right;
+	width: 250px;
+}

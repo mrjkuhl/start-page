@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<title>
+
+			New Tab
+		</title>
+
+		<script type="text/javascript" src="index.js">
+		</script>
+
+		<link rel="stylesheet" media="screen" href="index.css" />
+	</head>
+
+	<body>
+
+		<div class="container">
+		<div class="inputArea">
+		<div class="urlBar">
+		<form action="javascript:submitURL();" name="url_form" id="url_form">
+
+			<label><h1>
+
+				URL
+			</h1></label>
+			<input type="text" name="url" id="url" style="width: 0;position: absolute;">
+		</form>
+		</div>
+
+		<div class="searchBar">
+		<form action="https://www.startpage.com/do/search" method="POST" name="search_form" id="search_form">
+
+			<label><h1>
+
+				Search
+			</h1></label>
+			<input type="text" name="query" id="query" style="width: 0;position: absolute;">
+		</form>
+		</div>
+		</div>
+		</div>
+	</body>
+</html>
